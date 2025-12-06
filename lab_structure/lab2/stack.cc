@@ -37,4 +37,14 @@ T Stack<T>::pop() {
 }
 
 template <typename T>
+std::int64_t Stack<T>::getSize() {
+    return this->storage.getLength(); 
+}
+
+template <typename T>
+void Stack<T>::print() {
+    this->storage.printData(); 
+}
+
+template <typename T>
 Stack<T>::~Stack() {}

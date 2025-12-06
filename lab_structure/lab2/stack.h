@@ -20,8 +20,10 @@ public:
     Stack(std::int64_t max_size);
     bool isEmpty();
     void push(T x);
+    void print();
     T pop();
     T top();
+    std::int64_t getSize();
     ~Stack();
 };
 
